@@ -1,0 +1,1179 @@
+/* =========================
+   CYBERSHIELD THEME CSS
+========================= */
+
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Arial, sans-serif;
+}
+
+
+/* BODY */
+
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(2,6,23,0.95),
+        rgba(15,23,42,0.95),
+        rgba(0,31,63,0.95)
+    ),
+    url("../images/cyber-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    color:#f8fafc;
+
+}
+
+
+
+/* =========================
+ NAVBAR
+========================= */
+
+
+.navbar{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 50px;
+
+    background:rgba(2,6,23,0.7);
+
+    backdrop-filter:blur(15px);
+
+    border-bottom:1px solid rgba(0,255,255,0.3);
+
+}
+
+
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#00ffff;
+
+    text-shadow:
+    0 0 10px cyan;
+
+}
+
+
+
+.navbar ul{
+
+    display:flex;
+
+    gap:30px;
+
+    list-style:none;
+
+}
+
+
+
+.navbar a{
+
+    text-decoration:none;
+
+    color:#e2e8f0;
+
+    font-size:17px;
+
+    transition:0.3s;
+
+}
+
+
+
+.navbar a:hover{
+
+    color:#00ffff;
+
+    text-shadow:0 0 10px cyan;
+
+}
+
+
+
+/* =========================
+ HEADINGS & TEXT
+========================= */
+
+
+h1{
+
+    color:#00ffff;
+
+    font-size:45px;
+
+    text-shadow:
+    0 0 15px cyan;
+
+}
+
+
+h2{
+
+    color:#38bdf8;
+
+}
+
+
+
+p{
+
+    color:#e2e8f0;
+
+    font-size:18px;
+
+}
+
+
+
+/* =========================
+ GLASS CARD DESIGN
+========================= */
+
+
+.welcome-content,
+.checker-card,
+.tip-card,
+.about-card,
+.info-card,
+.thank-card{
+
+
+    background:
+
+    rgba(255,255,255,0.08);
+
+
+    backdrop-filter:blur(20px);
+
+
+    border:
+
+    1px solid rgba(0,255,255,0.3);
+
+
+    box-shadow:
+
+    0 0 30px rgba(0,255,255,0.25);
+
+
+    border-radius:25px;
+
+
+}
+
+
+
+/* =========================
+ WELCOME PAGE
+========================= */
+
+
+.welcome{
+
+    min-height:85vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+
+
+.welcome-content{
+
+    width:700px;
+
+    padding:50px;
+
+}
+
+
+
+.shield-image{
+
+    width:170px;
+
+    animation:float 3s infinite;
+
+}
+
+
+
+@keyframes float{
+
+
+0%{
+transform:translateY(0);
+}
+
+
+50%{
+transform:translateY(-20px);
+}
+
+
+100%{
+transform:translateY(0);
+}
+
+
+}
+
+
+
+/* =========================
+ BUTTONS
+========================= */
+
+
+button{
+
+    padding:15px 30px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:30px;
+
+
+    background:
+
+    linear-gradient(
+    90deg,
+    #00ffff,
+    #38bdf8
+    );
+
+
+    color:#020617;
+
+
+    font-size:17px;
+
+    font-weight:bold;
+
+
+    cursor:pointer;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+button:hover{
+
+    transform:scale(1.08);
+
+
+    box-shadow:
+
+    0 0 25px cyan;
+
+
+}
+
+
+
+.secondary-btn{
+
+    background:white;
+
+}
+
+
+
+/* =========================
+ PASSWORD CHECKER
+========================= */
+
+
+.checker-section{
+
+    min-height:85vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+
+.checker-card{
+
+    width:520px;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+.password-box{
+
+    display:flex;
+
+    margin:25px 0;
+
+}
+
+
+
+.password-box input{
+
+    flex:1;
+
+    padding:15px;
+
+    border-radius:10px;
+
+    border:none;
+
+    outline:none;
+
+    font-size:16px;
+
+}
+
+
+
+.strength-bar{
+
+    height:20px;
+
+    background:#1e293b;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+
+
+#strength{
+
+    height:100%;
+
+    width:0%;
+
+    background:#ef4444;
+
+    transition:0.5s;
+
+}
+
+
+
+.rules{
+
+    text-align:left;
+
+    margin-top:20px;
+
+}
+
+
+
+.rules p{
+
+    margin:10px;
+
+}
+
+
+
+/* =========================
+ SECURITY TIPS
+========================= */
+
+
+.tips-section{
+
+    padding:50px;
+
+    text-align:center;
+
+}
+
+
+
+.tips-container{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(280px,1fr));
+
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+
+
+.tip-card{
+
+    padding:30px;
+
+    transition:0.3s;
+
+}
+
+
+
+.tip-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+/* =========================
+ ABOUT PAGE
+========================= */
+
+
+.about-section{
+
+    min-height:85vh;
+
+    padding:50px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+
+.about-card{
+
+    max-width:900px;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+
+
+.about-container{
+
+    width:90%;
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(280px,1fr));
+
+
+    gap:30px;
+
+    margin-top:30px;
+
+}
+
+
+
+.info-card{
+
+    padding:30px;
+
+}
+
+
+
+/* =========================
+ THANK YOU PAGE
+========================= */
+
+
+.thank-section{
+
+    height:85vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+
+.thank-card{
+
+    padding:50px;
+
+    text-align:center;
+
+}
+
+
+
+.thank-image{
+
+    width:180px;
+
+    animation:float 3s infinite;
+
+}
+
+
+
+/* =========================
+ FOOTER
+========================= */
+
+
+footer{
+
+    text-align:center;
+
+    padding:20px;
+
+    background:rgba(2,6,23,0.7);
+
+    color:#94a3b8;
+
+}
+
+
+
+/* =========================
+ MOBILE DESIGN
+========================= */
+
+
+@media(max-width:768px){
+
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+.navbar ul{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+h1{
+
+    font-size:32px;
+
+}
+
+
+.welcome-content,
+.checker-card{
+
+    width:90%;
+
+}
+
+
+}
+.welcome-content{
+
+width:750px;
+
+padding:50px;
+
+text-align:center;
+
+}
+
+
+.welcome-content h2{
+
+font-size:30px;
+
+margin:15px;
+
+color:#38bdf8;
+
+}
+
+
+.welcome-content p{
+
+margin:20px;
+
+font-size:20px;
+
+color:#e2e8f0;
+
+}
+
+
+.shield-image{
+
+width:180px;
+
+filter:drop-shadow(0 0 25px cyan);
+
+animation:float 3s infinite;
+
+}
+/* =========================
+   WELCOME PAGE (INDEX.HTML)
+========================= */
+
+
+.welcome{
+
+    min-height:85vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+
+
+/* Main Welcome Card */
+
+.welcome-content{
+
+    width:750px;
+
+    padding:50px;
+
+
+    background:rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(20px);
+
+
+    border:1px solid rgba(0,255,255,0.3);
+
+
+    border-radius:25px;
+
+
+    box-shadow:
+
+    0 0 30px rgba(0,255,255,0.4);
+
+
+}
+
+
+
+/* Shield Image */
+
+
+.shield-image{
+
+    width:200px;
+
+    height:auto;
+
+
+    margin-bottom:25px;
+
+
+    filter:
+
+    drop-shadow(0 0 25px cyan);
+
+
+    animation:float 3s infinite ease-in-out;
+
+
+}
+
+
+
+
+/* Floating Animation */
+
+
+@keyframes float{
+
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+
+    50%{
+
+        transform:translateY(-20px);
+
+    }
+
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+
+}
+
+
+
+
+/* Main Heading */
+
+
+.welcome-content h1{
+
+
+    font-size:48px;
+
+
+    color:#00ffff;
+
+
+    margin-bottom:15px;
+
+
+    text-shadow:
+
+    0 0 15px cyan;
+
+
+}
+
+
+
+
+/* Sub Heading */
+
+
+.welcome-content h2{
+
+
+    font-size:30px;
+
+
+    color:#38bdf8;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+/* Description */
+
+
+.welcome-content p{
+
+
+    font-size:20px;
+
+
+    color:#e2e8f0;
+
+
+    line-height:1.7;
+
+
+    margin-bottom:30px;
+
+
+}
+
+
+
+
+/* Start Button */
+
+
+.welcome-content button{
+
+
+    padding:16px 40px;
+
+
+    border:none;
+
+
+    border-radius:30px;
+
+
+    background:
+
+    linear-gradient(
+
+    90deg,
+
+    #00ffff,
+
+    #2563eb
+
+    );
+
+
+    color:#020617;
+
+
+    font-size:18px;
+
+
+    font-weight:bold;
+
+
+    cursor:pointer;
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+
+.welcome-content button:hover{
+
+
+    transform:scale(1.08);
+
+
+    box-shadow:
+
+    0 0 30px cyan;
+
+
+}
+
+
+
+
+/* Mobile Design */
+
+
+@media(max-width:768px){
+
+
+.welcome-content{
+
+    width:90%;
+
+    padding:30px;
+
+}
+
+
+
+.welcome-content h1{
+
+    font-size:32px;
+
+}
+
+
+
+.welcome-content h2{
+
+    font-size:22px;
+
+}
+
+
+
+.shield-image{
+
+    width:140px;
+
+}
+
+
+}
+.finish-btn{
+
+    background:linear-gradient(
+    90deg,
+    #00ffff,
+    #2563eb
+    );
+
+    color:#020617;
+
+    margin-top:20px;
+
+}
+
+
+.finish-btn:hover{
+
+    box-shadow:0 0 25px cyan;
+
+    transform:scale(1.08);
+
+}
+/* =========================
+   WELCOME PAGE BACKGROUND
+========================= */
+
+
+body{
+
+    background:
+    linear-gradient(
+        rgba(2,6,23,0.90),
+        rgba(0,31,63,0.90)
+    ),
+    url("../images/cyber-bg.jpg");
+
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+    color:white;
+
+}
+
+
+
+/* Welcome Section */
+
+.welcome{
+
+    min-height:85vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+
+
+/* Welcome Glass Box */
+
+.welcome-content{
+
+    width:750px;
+
+    padding:50px;
+
+
+    background:
+
+    rgba(255,255,255,0.08);
+
+
+    backdrop-filter:blur(20px);
+
+
+    border-radius:25px;
+
+
+    border:1px solid rgba(0,255,255,0.4);
+
+
+    box-shadow:
+
+    0 0 40px rgba(0,255,255,0.4);
+
+
+}
+
+
+
+/* Shield Image */
+
+.shield-image{
+
+    width:200px;
+
+    margin-bottom:25px;
+
+
+    filter:
+
+    drop-shadow(0 0 25px cyan);
+
+
+    animation:float 3s infinite;
+
+
+}
+
+
+
+/* Animation */
+
+@keyframes float{
+
+
+0%{
+
+transform:translateY(0);
+
+}
+
+
+50%{
+
+transform:translateY(-20px);
+
+}
+
+
+100%{
+
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+/* Welcome Heading */
+
+.welcome-content h1{
+
+    color:#00ffff;
+
+    font-size:48px;
+
+    text-shadow:
+
+    0 0 20px cyan;
+
+}
+
+
+
+/* Welcome Description */
+
+.welcome-content p{
+
+    color:#e2e8f0;
+
+    font-size:20px;
+
+    margin:20px 0;
+
+}
+
+
+
+/* Start Button */
+
+.welcome-content button{
+
+    padding:16px 40px;
+
+
+    border:none;
+
+
+    border-radius:30px;
+
+
+    background:
+
+    linear-gradient(
+    90deg,
+    #00ffff,
+    #2563eb
+    );
+
+
+    color:#020617;
+
+
+    font-size:18px;
+
+
+    font-weight:bold;
+
+
+    cursor:pointer;
+
+}
+
+
+.welcome-content button:hover{
+
+    transform:scale(1.08);
+
+    box-shadow:0 0 30px cyan;
+
+}
