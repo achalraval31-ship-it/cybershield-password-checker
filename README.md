@@ -54,8 +54,7 @@ https://anchal-cyber-checker.netlify.app
 - Improve UI design
 
 ## 👩‍💻 Developed By
-
-**Achal Raval**
+**ANCHAL RAVAL**
 
 ## 📜 License
 This project is created for educational purposes as a cybersecurity project.
