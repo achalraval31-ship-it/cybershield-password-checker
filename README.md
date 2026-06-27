@@ -1,7 +1,5 @@
 # 🔐 Password Strength Checker Website
 
-<img width="1536" height="1024" alt="screenshot pnj" src="https://github.com/user-attachments/assets/ceefba9c-8e32-4cfa-9165-efed3927618c" />
-
 ## 📌 Project Overview
 Password Strength Checker is a cybersecurity-based web application that helps users check the strength and security level of their passwords. It analyzes the password and provides feedback to create stronger and safer passwords.
 
@@ -31,19 +29,22 @@ Password-Checker/
 ├── style.css
 ├── script.js
 └── screenshot.png
+```
 
+## 📷 Website Preview
 
+![Password Strength Checker](screenshot.png)
 
 ## 🚀 How to Run the Project
 
 1. Download or clone this repository.
 2. Open the project folder.
 3. Open `index.html` in any web browser.
-4. Start checking your password strength
+4. Start checking your password strength.
 
 ## 🌐 Live Website
-anchal-cyber-checker.netlify.app
 
+(Add your Netlify/GitHub Pages link here)anchal-cyber-checker.netlify.app
 
 ## 🔮 Future Improvements
 - Add password generator feature
