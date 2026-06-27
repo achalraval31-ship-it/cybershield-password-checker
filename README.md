@@ -41,11 +41,9 @@ Password-Checker/
 1. Download or clone this repository.
 2. Open the project folder.
 3. Open `index.html` in any web browser.
-4. Start checking your password strength.
+4. Start checking your password strength
 
-## 🌐 Live Website
 
-(Add your Netlify/GitHub Pages link here)
 
 ## 🔮 Future Improvements
 - Add password generator feature
