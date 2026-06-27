@@ -31,12 +31,6 @@ Password-Checker/
 ├── style.css
 ├── script.js
 └── screenshot.png
-```
-## Live Website
-
-Click here to view the website:
-
-[Visit Website]anchal-cyber-checker.netlify.app
 
 
 
@@ -47,6 +41,8 @@ Click here to view the website:
 3. Open `index.html` in any web browser.
 4. Start checking your password strength
 
+## 🌐 Live Website
+anchal-cyber-checker.netlify.app
 
 
 ## 🔮 Future Improvements
