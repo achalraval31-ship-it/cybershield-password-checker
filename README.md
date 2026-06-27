@@ -33,7 +33,8 @@ Password-Checker/
 
 ## 📷 Website Preview
 
-![Password Strength Checker](screenshot.png)
+<img width="1536" height="1024" alt="screenshot pnj" src="https://github.com/user-attachments/assets/9a44b026-eb5f-4046-bd2e-05c3aa53a323" />
+
 
 ## 🚀 How to Run the Project
 
@@ -44,7 +45,7 @@ Password-Checker/
 
 ## 🌐 Live Website
 
-anchal-cyber-checker.netlify.app
+https://anchal-cyber-checker.netlify.app
 
 ## 🔮 Future Improvements
 - Add password generator feature
