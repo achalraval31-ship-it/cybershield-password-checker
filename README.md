@@ -1,5 +1,7 @@
 # 🔐 Password Strength Checker Website
 
+<img width="1536" height="1024" alt="screenshot pnj" src="https://github.com/user-attachments/assets/ceefba9c-8e32-4cfa-9165-efed3927618c" />
+
 ## 📌 Project Overview
 Password Strength Checker is a cybersecurity-based web application that helps users check the strength and security level of their passwords. It analyzes the password and provides feedback to create stronger and safer passwords.
 
@@ -30,11 +32,6 @@ Password-Checker/
 ├── script.js
 └── screenshot.png
 ```
-
-## 📷 Website Preview
-
-<img width="1536" height="1024" alt="screenshot pnj" src="https://github.com/user-attachments/assets/0e674c63-00d7-40df-9ea0-57a2533c666e" />
-
 
 ## 🚀 How to Run the Project
 
