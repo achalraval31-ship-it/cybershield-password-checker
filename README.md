@@ -32,8 +32,8 @@ Password-Checker/
 ├── script.js
 └── screenshot.png
 ```
-my project website
-anchal-cyber-checker.netlify.app
+
+
 
 ## 🚀 How to Run the Project
 
