@@ -59,7 +59,9 @@ https://anchal-cyber-checker.netlify.app
 
 ## 👩‍💻 Developed By
 **ANCHAL RAVAL**
-Email:achalraval31@gmaail.com
+## Contact
+
+📧 Email: [achalraval31@gmail.com]
 
 ## 📜 License
 This project is created for educational purposes as a cybersecurity project.
